@@ -14,11 +14,13 @@ Lee un archivo de empleados (EMPLOYEES.DAT), calcula el sueldo neto aplicando un
 - Acceso a terminal
 
 # # Ejecución
+
 ```bash
 git clone https://github.com/LexLuthorPrimero/cobol-payroll-batch-demo.git
 cd cobol-payroll-batch-demo
 chmod +x run_payroll.sh
 ./run_payroll.sh
+
 ```
 
 
@@ -26,6 +28,7 @@ chmod +x run_payroll.sh
 Ejecuta `./test.sh` para verificar la correcta generación del reporte. Este script también se ejecuta automáticamente en cada push mediante GitHub Actions.
 
 # # Salida esperada (ejemplo)
+
 ```
 
 REPORTE DE NOMINA - BATCH JOB        FECHA: 2026-04-23
@@ -38,6 +41,7 @@ ID     NOMBRE                SALARIO BRUTO  SALARIO NETO
     5  Luis Rodriguez            11000.00       9130.00
 
 TOTAL EMPLEADOS PROCESADOS:     5     TOTAL BRUTO: $65500.00     TOTAL NETO: $54365.00
+
 ```
 
 
