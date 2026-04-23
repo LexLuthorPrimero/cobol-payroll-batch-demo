@@ -1,2 +1,4 @@
 payroll
+payroll_test
 PAYROLL-REPORT.TXT
+*.o

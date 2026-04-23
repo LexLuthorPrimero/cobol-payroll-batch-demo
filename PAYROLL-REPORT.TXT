@@ -1,5 +1,5 @@
-REPORTE DE NOMINA - BATCH JOB FECHA:              2026042305
-ID    NOMBRE              SALARIO BRUTSALARIO NETO
+REPORTE DE NOMINA - BATCH JOB FECHA:              2026042306
+ID    NOMBRE              SALARIO BRUTOSALARIO NETO
 
     1  Juan Perez              12000.00     9960.00
     2  Maria Gomez             15000.00    12450.00
