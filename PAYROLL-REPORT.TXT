@@ -1,0 +1,10 @@
+REPORTE DE NOMINA - BATCH JOB FECHA:              2026042305
+ID    NOMBRE              SALARIO BRUTSALARIO NETO
+
+    1  Juan Perez              12000.00     9960.00
+    2  Maria Gomez             15000.00    12450.00
+    3  Carlos Lopez             9500.00     7885.00
+    4  Ana Martinez            18000.00    14940.00
+    5  Luis Rodriguez          11000.00     9130.00
+
+TOTAL EMPLEADOS PROCESADOS:       5     TOTAL BRUTO: $          65500.00     TOT
