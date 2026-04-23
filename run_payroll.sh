@@ -5,7 +5,7 @@ echo "======================================="
 echo "Sistema: $(uname -a)"
 echo "Fecha: $(date)"
 echo ""
-if ! command -v cobc &> /dev/null; then
+if ! command -v cobc &>/dev/null; then
     echo "ERROR: GnuCOBOL no instalado."
     exit 1
 fi

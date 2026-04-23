@@ -6,14 +6,14 @@
 
 Proyecto demostrativo de un proceso batch típico de Mainframe, escrito en COBOL ANSI-85 y ejecutable en Linux con GnuCOBOL.
 
-## Funcionalidad
+# # Funcionalidad
 Lee un archivo de empleados (EMPLOYEES.DAT), calcula el sueldo neto aplicando un descuento del 17% y genera un reporte detallado (PAYROLL-REPORT.TXT).
 
-## Requisitos
+# # Requisitos
 - GnuCOBOL (instalable vía `sudo dnf install gnucobol` en Fedora/Nobara)
 - Acceso a terminal
 
-## Ejecución
+# # Ejecución
 ```bash
 git clone https://github.com/LexLuthorPrimero/cobol-payroll-batch-demo.git
 cd cobol-payroll-batch-demo
@@ -21,11 +21,13 @@ chmod +x run_payroll.sh
 ./run_payroll.sh
 ```
 
-## Pruebas automatizadas
+
+# # Pruebas automatizadas
 Ejecuta `./test.sh` para verificar la correcta generación del reporte. Este script también se ejecuta automáticamente en cada push mediante GitHub Actions.
 
-## Salida esperada (ejemplo)
+# # Salida esperada (ejemplo)
 ```
+
 REPORTE DE NOMINA - BATCH JOB        FECHA: 2026-04-23
 
 ID     NOMBRE                SALARIO BRUTO  SALARIO NETO 
@@ -38,5 +40,6 @@ ID     NOMBRE                SALARIO BRUTO  SALARIO NETO
 TOTAL EMPLEADOS PROCESADOS:     5     TOTAL BRUTO: $65500.00     TOTAL NETO: $54365.00
 ```
 
-## Autor
+
+# # Autor
 Lucas Cañete – Estudiante de Ingeniería Informática (UBA)
