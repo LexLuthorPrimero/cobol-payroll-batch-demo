@@ -1,0 +1,19 @@
+name: COBOL CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar GnuCOBOL
+        run: sudo apt-get update && sudo apt-get install -y gnucobol
+      - name: Compilar programa
+        run: cobc -x -o payroll PAYROLL.cob
+      - name: Ejecutar prueba de validación
+        run: ./test.sh
