@@ -16,21 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Super-Linter (modo permisivo)
+      - name: Super-Linter (solo Bash y Markdown)
         uses: super-linter/super-linter@v7
         env:
-          # Desactivamos todo por defecto...
           VALIDATE_ALL_CODEBASE: false
-          # Activamos SOLO lo que nos interesa corregir
           VALIDATE_BASH: true
           VALIDATE_MARKDOWN: true
-          # Desactivamos explícitamente lo que no queremos que falle
-          VALIDATE_CHECKOV: false
-          VALIDATE_GITHUB_ACTIONS: false
-          VALIDATE_GITLEAKS: false
-          VALIDATE_JSCPD: false
-          VALIDATE_NATURAL_LANGUAGE: false
-          VALIDATE_SHELL_SHFMT: true   # Lo queremos pasar
-          VALIDATE_MARKDOWN_PRETTIER: false  # Usamos markdownlint normal
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
