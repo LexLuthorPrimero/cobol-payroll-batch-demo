@@ -1,5 +1,6 @@
 # Procesamiento de Nómina Batch en COBOL
 
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![COBOL CI](https://github.com/LexLuthorPrimero/cobol-payroll-batch-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/LexLuthorPrimero/cobol-payroll-batch-demo/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
