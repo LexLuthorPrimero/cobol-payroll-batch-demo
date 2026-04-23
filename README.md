@@ -1,4 +1,4 @@
-# Procesamiento de Nómina Batch en COBOL
+## Procesamiento de Nómina Batch en COBOL
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![COBOL CI](https://github.com/LexLuthorPrimero/cobol-payroll-batch-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/LexLuthorPrimero/cobol-payroll-batch-demo/actions/workflows/ci.yml)
@@ -21,7 +21,7 @@ cd cobol-payroll-batch-demo
 chmod +x run_payroll.sh
 ./run_payroll.sh
 
-```
+```text
 
 
 # # Pruebas automatizadas
@@ -29,7 +29,7 @@ Ejecuta `./test.sh` para verificar la correcta generación del reporte. Este scr
 
 # # Salida esperada (ejemplo)
 
-```
+```text
 
 REPORTE DE NOMINA - BATCH JOB        FECHA: 2026-04-23
 
@@ -42,7 +42,7 @@ ID     NOMBRE                SALARIO BRUTO  SALARIO NETO
 
 TOTAL EMPLEADOS PROCESADOS:     5     TOTAL BRUTO: $65500.00     TOTAL NETO: $54365.00
 
-```
+```text
 
 
 # # Autor

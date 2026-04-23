@@ -10,8 +10,7 @@ if ! command -v cobc &>/dev/null; then
     exit 1
 fi
 echo ">>> COMPILANDO PROGRAMA COBOL..."
-cobc -x -o payroll PAYROLL.cob
-if [ $? -ne 0 ]; then
+if ! cobc -x -o payroll PAYROLL.cob; then
     echo "ERROR: Falló compilación."
     exit 1
 fi
