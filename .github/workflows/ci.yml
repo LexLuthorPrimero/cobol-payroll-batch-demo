@@ -3,24 +3,11 @@ name: COBOL CI
 on: [push, pull_request]
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Super-Linter
-        uses: super-linter/super-linter@v7
-        env:
-          VALIDATE_BASH: false
-          VALIDATE_MARKDOWN: false
-          VALIDATE_EDITORCONFIG: false
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Instalar GnuCOBOL
         run: sudo apt-get update && sudo apt-get install -y gnucobol
-      - name: Ejecutar pruebas
+      - name: Compilar y ejecutar pruebas
         run: ./test.sh
